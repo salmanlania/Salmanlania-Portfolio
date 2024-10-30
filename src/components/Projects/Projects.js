@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/automation.png";
+import emotion from "../../Assets/Projects/fairtalkai.png";
+import editor from "../../Assets/Projects/meezan.png";
+import chatify from "../../Assets/Projects/lania-foods.web.app_.png";
+import suicide from "../../Assets/Projects/taxpert.png";
+import bitsOfCode from "../../Assets/Projects/obliqware.pk_.png";
 
 function Projects() {
   return (
@@ -25,10 +25,12 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Food Panda"
+              description="Developed the frontend of a Food panda clone app, integrating Firebase for restaurant data 
+              and user authentication (login/signup). Implemented an add-to-cart feature using Redux. 
+              Technologies used: HTML, CSS, Bootstrap, JavaScript, React.js, Firebase."
+              ghLink="https://github.com/salmanlania/foodypanda"
+              demoLink="https://salmanlania.web.app/"
             />
           </Col>
 
@@ -36,10 +38,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Obliqware"
+              description="I built a startup company website using Bootstrap and Next.js, which pulls content from Markdown files for efficient rendering. The site features dark mode and provides a user-friendly Markdown writing experience for easy blog creation."
+              ghLink="https://github.com/salmanlania"
+              demoLink="https://obliqware.pk/"
             />
           </Col>
 
@@ -47,10 +49,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Bank ChatBot"
+              description="I designed the frontend for an HR chatbot accessible after user login, using HTML, CSS, and JavaScript. The intuitive interface enhances user interaction and showcases my skills in combining effective design with functionality."
+              ghLink="https://github.com/salmanlania"
+              demoLink="https://drive.google.com/file/d/1tVQYPcXTlmxATomXfqNT3O-zc_2N3-JN/view?usp=sharing"
             />
           </Col>
 
@@ -58,10 +60,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Automation"
+              description="Built the frontend for a platform that automates Google Maps, email scraping, LinkedIn, and WhatsApp tasks. Used: HTML, CSS, Tailwind CSS, Material UI, JavaScript, React.js."
+              ghLink="https://github.com/salmanlania"
+              demoLink="https://drive.google.com/file/d/1ZLW3QCNQaDvpWc1-pBPIpyYinxaMxhp5/view?usp=sharing"
             />
           </Col>
 
@@ -69,10 +71,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="TaxPert"
+              description="Developed an intuitive and responsive user interface for a Gen AI Chatbot that provides clear answers to tax-related queries, with an integrated eBook feature on tax information. Technologies used: HTML, CSS, Tailwind CSS, Material UI, JavaScript, React.js."
+              ghLink="https://github.com/salmanlania"
+              demoLink="https://drive.google.com/file/d/1uaeyiXTcs_ti0YS-oOQiKLrCcVrL6KXq/view?usp=sharing"
             />
           </Col>
 
@@ -80,11 +82,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Audio Ai"
+              description="Developed the user interface for an AI-powered system that detects fraudulent audio in calls. Built with HTML, CSS, JavaScript, and Bootstrap to ensure a clean, responsive design and seamless user experience."
+              ghLink="https://github.com/salmanlania"
+              demoLink="https://drive.google.com/file/d/1RNHWqH8Td3AKa-gP9hJfW2GmR1JSqZdl/view?usp=sharing"
             />
           </Col>
         </Row>
